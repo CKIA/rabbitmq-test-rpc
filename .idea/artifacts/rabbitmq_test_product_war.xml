@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rabbitmq-test-product:war">
+    <output-path>$PROJECT_DIR$/product/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rabbitmq-test-product</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rabbitmq-test-product-rpc-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="rabbitmq-test-product:war exploded" />
+    </root>
+  </artifact>
+</component>
